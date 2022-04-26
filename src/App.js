@@ -1,4 +1,4 @@
-
+import "./App.css"
 import Add from "./components/Add.component";
 
 const App = () => {

@@ -1,5 +1,4 @@
 import React from "react";
-import "./Add.style.css";
 import AddItem from "./AddItem.component";
 
 class Add extends React.Component {
@@ -42,9 +41,7 @@ class Add extends React.Component {
           {this.state.todos.map((todo, index) => {
             return <AddItem key={index} todo={todo} />;
           })}
-          {this.state.todos.length === 0 && (
-            <div className="center"></div>
-          )}
+          
         </div>
       </React.Fragment>
     );
